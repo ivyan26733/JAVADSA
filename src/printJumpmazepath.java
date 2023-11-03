@@ -8,7 +8,6 @@ public class printJumpmazepath {
             System.out.println(psf);
             return;
         }
-
         for (int i=1;i<=dc-sc;i++){
             printpath(sr,sc+i,dr,dc,psf+'h'+i);
         }
