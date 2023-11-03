@@ -13,7 +13,6 @@ public class printmazepath {
         }
 
         mazepath(sr+1,sc,dr,dc,psf+'v');
-
         mazepath(sr,sc+1,dr,dc,psf+'h');
     }
 }
